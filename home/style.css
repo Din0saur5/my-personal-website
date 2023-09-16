@@ -4,15 +4,23 @@ body{
 }
 @font-face {
     font-family: viking;
-    src: url("../my-personal-website/fontStyles/PR\ Viking.ttf");
+    src: url("../resources/fontStyles/PR\ Viking.ttf");
 }
 h1{
     margin-left: auto;
+    text-decoration: underline;
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 10px;
+   
     color: blanchedalmond;
     font-size: 60px;
+}
+h2{
+    margin-left: auto;
+    text-align: center;
+    
+    margin-bottom: 50px;
+    color: blanchedalmond;
+    font-size: 12px;
 }
 div#background{ 
     background: rgba(255,255,255,.85);
@@ -54,7 +62,7 @@ div.headButton{
         background-clip: content-box, border-box;
         box-shadow: 2px 1000px 1px blanchedalmond inset;
         #diceImg {
-            content: url("../my-personal-website/images/border_dice_img.png");
+            content: url("../resources/images/border_dice_img.png");
             padding-block-start:10px;
             display:inline-block;
         }
@@ -80,7 +88,7 @@ div.headButton{
         width:100%;
         
         #diceImg {
-            content: url("../my-personal-website/images/fill_dice_img.png");
+            content: url("../resources/images/fill_dice_img.png");
         }
       }
 

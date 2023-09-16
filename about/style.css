@@ -1,0 +1,27 @@
+body{
+    overflow-y: scroll;
+   background:  url(https://wallpaperset.com/w/full/e/6/a/234929.jpg) 
+}
+
+h1{
+    margin-block-start:-6%;
+    margin-inline-start: -100px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: blanchedalmond;
+    font-size: 60px;
+}
+
+h2{
+    margin-left: auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    color: blanchedalmond;
+    font-size: 40px;
+}
+
+#homeButton{
+    margin-inline-start: 20px;
+    margin-block-start: -20px;
+}
