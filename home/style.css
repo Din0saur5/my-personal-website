@@ -6,12 +6,18 @@ body{
     font-family: viking;
     src: url("../resources/fontStyles/PR\ Viking.ttf");
 }
+@font-face {
+    font-family: Wellsley;
+    src: url(../resources/fontStyles/WELLSLEY.TTF);
+}
 h1{
-    margin-left: auto;
+    font-family: 'Wellsley';
+    margin-left: 50px;
+    padding-left: 5px;
     text-decoration: underline;
-    text-align: center;
+    text-align: left;
    
-    color: blanchedalmond;
+    color: cornflowerblue;
     font-size: 60px;
 }
 h2{
@@ -23,12 +29,12 @@ h2{
     font-size: 12px;
 }
 div#background{ 
-    background: rgba(255,255,255,.85);
+  background: white;
   background-origin: border-box;
   height :5000px;
-  width: fit-content;
-  margin-left: 25%;
-  position: fixed;
+  width: auto;
+  margin: 400px;
+  
   margin-block-start: -100px;
   
   border: solid 14px transparent;
@@ -54,13 +60,13 @@ div.headButton{
         border-radius: 5rem;
         padding: 1rem 1rem;
         border-style: black;
-        border: solid 14px transparent;
+        border: solid 7px transparent;
         background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
         background-origin: border-box;
         width: 20%;
         height: 90px;
         background-clip: content-box, border-box;
-        box-shadow: 2px 1000px 1px blanchedalmond inset;
+        box-shadow: 2px 1000px 1px #ff48fc inset;
         #diceImg {
             content: url("../resources/images/border_dice_img.png");
             padding-block-start:10px;
@@ -79,7 +85,7 @@ div.headButton{
       div#aboutBackground:hover .headButton{
         box-shadow: none;
         color: blanchedalmond;
-        border: solid 14px transparent;
+        border: solid 7px transparent;
         -webkit-transition: width 1s ease-in-out;
         -moz-transition: width 1s ease-in-out;
         -o-transition: width 1s ease-in-out;
@@ -93,11 +99,15 @@ div.headButton{
       }
 
 
-div.headButton a{
-    font-size: 5rem;
-    padding-block-start: 10px;
-    text-align: center;
-    padding: 5px;
+div#aboutBackground a{
+    font-size: 3rem;
+    text-decoration: underline;
+    text-decoration-color:transparent;
+    padding: 10px;
+    position: relative;
+    top: -20px;
+    
+
     
     }  
 
