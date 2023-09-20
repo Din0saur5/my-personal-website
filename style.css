@@ -1,22 +1,35 @@
 body{
-     overflow-y: scroll;
-    background:  url(https://wallpaperset.com/w/full/e/6/a/234929.jpg) 
+    background-image: url('https://img.freepik.com/premium-photo/stars-galaxy-outer-space-sky-night-universe-black-starry-background-shiny-starfield_146539-416.jpg'); 
 }
 @font-face {
     font-family: viking;
-    src: url("../resources/fontStyles/PR\ Viking.ttf");
+    src: url('./resources/fontStyles/PR\ Viking.ttf');
 }
 @font-face {
     font-family: Wellsley;
-    src: url(../resources/fontStyles/WELLSLEY.TTF);
+    src: url('./resources/fontStyles/WELLSLEY.TTF');
+
+}
+
+@font-face {
+    font-family: space;
+    src: url('resources/fontStyles/SpaceMission-rgyw9.otf');
+}
+div.hud{
+    background-image: url(./resources/images/name-hud.png);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 h1{
-    font-family: 'Wellsley';
+    font-family: 'space';
+    
     margin-left: 50px;
-    padding-left: 5px;
+    padding: 20px;
     text-decoration: underline;
     text-align: left;
-   
+    border-radius: 5rem;
     color: cornflowerblue;
     font-size: 60px;
 }
@@ -29,17 +42,16 @@ h2{
     font-size: 12px;
 }
 div#background{ 
-  background: white;
-  background-origin: border-box;
-  height :5000px;
-  width: auto;
-  margin: 400px;
   
-  margin-block-start: -100px;
-  
-  border: solid 14px transparent;
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
-
+  height :500px;
+  width: 1500px;
+  margin: 50px;
+margin-block-start: -200px;
+  background-color: transparent;
+    border-left: 0, solid transparent;
+    background-image: linear-gradient(101deg, black, gold, black, gray, transparent);
+    padding: 20px; 
+    box-sizing: border-box;
 }
   
 
